@@ -1,0 +1,16 @@
+[package]
+name = "easings"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = { version = "1.0.210", features = ["derive"], optional = true }
+
+[features]
+default = []
+serde = ["dep:serde"]
+
+[dev-dependencies]
+clap = { version = "4.5.18", features = ["derive"] }
+image = "0.25.2"
+sdl2 = { version = "0.37.0", features = ["bundled"] }
