@@ -1,6 +1,8 @@
 # easings
 a simple rust crate for easing functions
 
+[documentation](https://wcaleniekubaa.github.io/easings/)
+
 ## instalation
 
 im not publishing that crate to crates.io for now, i need a name since easings is taken
